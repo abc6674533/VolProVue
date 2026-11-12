@@ -1,0 +1,61 @@
+export default function () {
+    return {
+        MsSql: [
+            { key: 'uniqueidentifier', value: 'guid' },
+            { key: 'nvarchar', value: 'nvarchar' },
+            { key: 'nvarchar(max)', value: 'nvarchar(max)' },
+            { key: 'varchar', value: 'varchar' },
+            { key: 'varchar(max)', value: 'varchar(max)' },
+            { key: 'int', value: 'int' },
+            { key: 'bigint', value: 'bigint' },
+            { key: 'decimal', value: 'decimal' },
+            { key: 'float', value: 'float' },
+            { key: 'date', value: 'date' },
+            { key: 'datetime', value: 'datetime' },
+            { key: 'datetime2', value: 'datetime2' },
+            { key: 'bit', value: 'bit' },
+            { key: 'char', value: 'char' },
+            { key: 'nchar', value: 'nchar' }
+        ],
+        MySql: [
+            { key: 'guid', value: 'guid' },
+            { key: 'varchar', value: 'varchar' },
+            { key: 'int', value: 'int' },
+            { key: 'bigint', value: 'bigint' },
+            { key: 'datetime', value: 'datetime' },
+            { key: 'date', value: 'date' },
+            { key: 'decimal', value: 'decimal' },
+            { key: 'float', value: 'float' },
+            { key: 'text', value: 'text' },
+            { key: 'time', value: 'time' },
+            { key: 'bit', value: 'bit' },
+            { key: 'char', value: 'char' },
+            { key: 'longtext', value: 'longtext' },
+            { key: 'mediumtext', value: 'mediumtext' },
+            { key: 'tinyint', value: 'tinyint' },
+            { key: 'smallint', value: 'smallint' },
+            { key: 'mediumint', value: 'mediumint' },
+            { key: 'double', value: 'double' },
+            { key: 'timestamp', value: 'timestamp' }
+        ],
+        PgSql: [
+            { key: 'uuid', value: 'guid' },
+            { key: 'varchar', value: 'varchar' },
+            { key: 'int4', value: 'int4' },
+            { key: 'bigint', value: 'bigint' },
+            { key: 'int8', value: 'int8' },
+            { key: 'decimal', value: 'decimal' },
+            { key: 'numeric', value: 'numeric' },
+            { key: 'timestamp', value: 'timestamp' },
+            { key: 'timestamptz', value: 'timestamptz' },
+            { key: 'text', value: 'text' },
+            { key: 'integer', value: 'integer' },
+            { key: 'bit', value: 'bit' },
+            //{ key: 'date', value: 'date' },
+            { key: 'time', value: 'time' },
+            { key: 'json', value: 'json' },
+            { key: 'char', value: 'char' },
+            { key: 'character varying', value: 'character varying' }
+        ]
+    }
+}

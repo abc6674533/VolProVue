@@ -1,0 +1,30 @@
+{
+  // "compilerOptions": {
+  //   "target": "ESNext",
+  //   "module": "ESNext",
+  //   "moduleResolution": "Node",
+  //   "strict": true,
+  //   "jsx": "preserve",
+  //   "sourceMap": true,
+  //   "resolveJsonModule": true,
+  //   "esModuleInterop": true,
+  //   "lib": ["ESNext", "DOM"]
+  // },
+  "compilerOptions": {
+    "isolatedModules": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    // "types": ["node"],
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"]
+  },
+  // "include": ["src/**/*.js", "src/**/*.vue"],
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.vue"],
+  "exclude": ["node_modules", "dist"]
+}
